@@ -9,6 +9,11 @@ html {
     scroll-behavior: smooth;
 }
 
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .nav {
     height: 80px;
     width: 100%;
