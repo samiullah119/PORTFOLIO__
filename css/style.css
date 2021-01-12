@@ -185,10 +185,19 @@ footer {
 }
 
 .social-media span {
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    font-size: 25px;
     color: white
 }
 
-.copyright {
+.social-media span i {
+    margin-right: 8px;
+    font-size: 30px;
+}
+
+.social-media span .copyright {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
