@@ -144,6 +144,7 @@ footer {
 
 .footer {
     padding: 60px !important;
+    height: 400px;
     border-bottom: 3px solid crimson;
 }
 
@@ -153,6 +154,7 @@ footer {
     align-items: center;
     flex-direction: column;
     padding: 20px;
+    overflow: hidden;
 }
 
 .contact {
@@ -197,10 +199,14 @@ footer {
     font-size: 30px;
 }
 
-.social-media span .copyright {
+.social-media:hover {
+    margin-top: 10px;
+}
+
+.copyright {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px;
 }
 
@@ -210,4 +216,16 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: -1px;
     width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .social-media span i {
+        font-size: 25px;
+    }
+    .social-media span {
+        font-size: 20px;
+    }
+    .copyright p {
+        font-size: 16px;
+    }
 }
