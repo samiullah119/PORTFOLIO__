@@ -5,7 +5,7 @@ A small simple portfolio
 
 ![Portfolio](images/page_demo.png)
 ## Live Demo
-[go live](https://samiullah119.github.io/Technical-Documentation)
+[go live](https://samiullah119.github.io/PORTFOLIO__)
 
 
 ## Built With
